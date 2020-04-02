@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Project M2_2</title>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <h2>Подбор оптимального вклада</h2>
+        <div class="calculate">
+            <div class="description">
+                <label for="start-amount">Начальная сумма</label>
+                <input type="number" id="start-amount">
+            </div>
+            <div class="description">
+                <label for="mounthly-amount">Сумма ежемесячного пополнения</label>
+                <input type="number" id="mounthly-amount">
+            </div>
+            <div class="description">
+                <label for="period">Срок вклада</label>
+                <input type="number" id="period">
+            </div>
+            <div class="description">
+                <label for="type-Currency">Вальюта вклада</label>
+
+                <select id="type-Currency">
+                    <option value="RUB">RUB</option>
+                    <option value="USD">USD</option>
+                </select>
+
+            </div>
+            <button id="calcButton">Подобрать</button>
+        </div>
+        
+        <div id="table-div"></div>
+        <div id="alert-div">
+            <h3>Нет подходящих вариантов</h3>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
