@@ -92,7 +92,7 @@ class Application {
 
         this.button = document.getElementById("calcButton");
         const self = this;
-        this.button.addEventListener('click', function () {
+        button.addEventListener('click', function () {
             self.callFunction();
         });
     }
@@ -133,7 +133,7 @@ class Application {
     }
 }
 
-let start = new Application();
+let start = new Application;
 
 
 let res = [{ "bankName": "Газпромбанк", "investName": "Ваш успех", "currency": "RUB", "incomeType": 6.22, "sumMin": 50000, "sumMax": null, "termMin": 12, "termMax": 12, "canDeposit": false },
