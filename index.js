@@ -92,7 +92,7 @@ class Application {
 
         this.button = document.getElementById("calcButton");
         const self = this;
-        button.addEventListener('click', function () {
+        this.button.addEventListener('click', function () {
             self.callFunction();
         });
     }
